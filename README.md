@@ -34,7 +34,7 @@ Using a cross-sectional sample of **820 participants aged 12–84 years**, we mo
 
 ### Main Findings
 
-- Acquisition of emotional vocabulary accelarates earlier (~12 years) than general vocabulary (~16 years)
+- Acquisition of emotional vocabulary accelerates earlier (~12 years) than general vocabulary (~16 years)
 - Differences are statistically significant and consistent
 - Growth patterns fit well with developmental theory
 
