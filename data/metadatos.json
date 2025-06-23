@@ -1,0 +1,441 @@
+{
+    "title": "Dataset on Emotional and General Vocabulary Development",
+    "description": "Data collected to compare the development of emotional and general vocabulary across participants of different ages.",
+    "authors": [
+        {
+            "name": "Alejandra Calero",
+            "orcid": "0000-0001-7197-1320",
+            "affiliation": "UBA-CONICET"
+        },
+        {
+            "name": "Juan Pablo Barreyro",
+            "orcid": "0000-0002-1606-1049",
+            "affiliation": "CIIPME-CONICET"
+        },
+        {
+            "name": "Pablo Vasquez",
+            "orcid": "0000-0002-5974-5707",
+            "affiliation": "UBA-CONICET"
+        },
+        {
+            "name": "Jesica Formoso",
+            "orcid": "0000-0003-3062-4036",
+            "affiliation": "CIIPME-CONICET"
+        }
+    ],
+    "resources": [
+        {
+            "path": "base_vocabulario.xlsx",
+            "sheet": "datos",
+            "description": "Main dataset used to model the growth of emotional and general vocabulary.",
+            "variables": [
+                {
+                    "variable": "ID",
+                    "description_spanish": "Número de identificación único",
+                    "description_english": "Identification number",
+                    "values": "num: 0-834"
+                },
+                {
+                    "variable": "genero",
+                    "description_spanish": "Genero del participante",
+                    "description_english": "Participant's gender",
+                    "values": "num: 0 = Femenino, 1 = Masculino"
+                },
+                {
+                    "variable": "edad",
+                    "description_spanish": "Edad del participante en años",
+                    "description_english": "Participant's age in years",
+                    "values": "num: 12-84"
+                },
+                {
+                    "variable": "nivel_educativo",
+                    "description_spanish": "Nivel educativo del participante",
+                    "description_english": "Participant's educational level",
+                    "values": "num: 1-7"
+                },
+                {
+                    "variable": "ve_1",
+                    "description_spanish": "1er ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "1 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_2",
+                    "description_spanish": "2do ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "2 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_3",
+                    "description_spanish": "3er ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "3 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_4",
+                    "description_spanish": "4to ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "4 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_5",
+                    "description_spanish": "5to ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "5 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_6",
+                    "description_spanish": "6to ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "6 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_7",
+                    "description_spanish": "7mo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "7 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_8",
+                    "description_spanish": "8vo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "8 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_9",
+                    "description_spanish": "9no ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "9 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_10",
+                    "description_spanish": "10mo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "10 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_11",
+                    "description_spanish": "11mo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "11 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_12",
+                    "description_spanish": "12mo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "12 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_13",
+                    "description_spanish": "13er ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "13 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_14",
+                    "description_spanish": "14to ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "14 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_15",
+                    "description_spanish": "15to ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "15 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_16",
+                    "description_spanish": "16to ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "16 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_17",
+                    "description_spanish": "17mo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "17 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_18",
+                    "description_spanish": "18vo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "18 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_19",
+                    "description_spanish": "19no ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "19 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_20",
+                    "description_spanish": "20mo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "20 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_21",
+                    "description_spanish": "21er ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "21 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_22",
+                    "description_spanish": "22do ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "22 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_23",
+                    "description_spanish": "23er ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "23 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_24",
+                    "description_spanish": "24to ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "24 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_25",
+                    "description_spanish": "25to ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "25 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_26",
+                    "description_spanish": "26to ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "26 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_27",
+                    "description_spanish": "27mo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "27 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_28",
+                    "description_spanish": "28vo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "28 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_29",
+                    "description_spanish": "29no ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "29 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_30",
+                    "description_spanish": "30mo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "30 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_31",
+                    "description_spanish": "31er ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "31 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_32",
+                    "description_spanish": "32do ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "32 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_33",
+                    "description_spanish": "33er ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "33 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_34",
+                    "description_spanish": "34to ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "34 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_35",
+                    "description_spanish": "35to ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "35 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_36",
+                    "description_spanish": "36to ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "36 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_37",
+                    "description_spanish": "37mo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "37 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_38",
+                    "description_spanish": "38vo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "38 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_39",
+                    "description_spanish": "39no ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "39 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "ve_40",
+                    "description_spanish": "40mo ítem de la prueba  Emotion Knowledge test scores",
+                    "description_english": "40 Item of the test Emotion Knowledge test scores",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_1",
+                    "description_spanish": "1er ítem de la prueba BAIRES-A",
+                    "description_english": "1 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_2",
+                    "description_spanish": "2do ítem de la prueba BAIRES-A",
+                    "description_english": "2 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_3",
+                    "description_spanish": "3er ítem de la prueba BAIRES-A",
+                    "description_english": "3 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_4",
+                    "description_spanish": "4to ítem de la prueba BAIRES-A",
+                    "description_english": "4 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_5",
+                    "description_spanish": "5to ítem de la prueba BAIRES-A",
+                    "description_english": "5 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_6",
+                    "description_spanish": "6to ítem de la prueba BAIRES-A",
+                    "description_english": "6 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_7",
+                    "description_spanish": "7mo ítem de la prueba BAIRES-A",
+                    "description_english": "7 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_8",
+                    "description_spanish": "8vo ítem de la prueba BAIRES-A",
+                    "description_english": "8 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_9",
+                    "description_spanish": "9no ítem de la prueba BAIRES-A",
+                    "description_english": "9 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_10",
+                    "description_spanish": "10mo ítem de la prueba BAIRES-A",
+                    "description_english": "10 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_11",
+                    "description_spanish": "11mo ítem de la prueba BAIRES-A",
+                    "description_english": "11 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_12",
+                    "description_spanish": "12mo ítem de la prueba BAIRES-A",
+                    "description_english": "12 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_13",
+                    "description_spanish": "13er ítem de la prueba BAIRES-A",
+                    "description_english": "13 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_14",
+                    "description_spanish": "14to ítem de la prueba BAIRES-A",
+                    "description_english": "14 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_15",
+                    "description_spanish": "15to ítem de la prueba BAIRES-A",
+                    "description_english": "15 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_16",
+                    "description_spanish": "16to ítem de la prueba BAIRES-A",
+                    "description_english": "16 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_17",
+                    "description_spanish": "17mo ítem de la prueba BAIRES-A",
+                    "description_english": "17 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "v_18",
+                    "description_spanish": "18vo ítem de la prueba BAIRES-A",
+                    "description_english": "18 Item of the BAIRES-A general vocabulary test",
+                    "values": "num: 0 = incorrect, 1 = correct"
+                },
+                {
+                    "variable": "faltantes",
+                    "description_spanish": "Valores faltantes / respuestas incompletas",
+                    "description_english": "Missing values / incomplete answers",
+                    "values": "num: 0-58"
+                },
+                {
+                    "variable": "VE",
+                    "description_spanish": "Puntaje total de la prueba de vocabulario emocional",
+                    "description_english": "Emotional vocabulary total score",
+                    "values": "num: 0-40"
+                },
+                {
+                    "variable": "V",
+                    "description_spanish": "Puntaje total de la prueba de vocabulario general",
+                    "description_english": "General vocabulary total score",
+                    "values": "num: 0-18"
+                },
+                {
+                    "variable": "grupo_edad",
+                    "description_spanish": "Grupo etario",
+                    "description_english": "Age group",
+                    "values": "char: Adolent/Adult/OldAdult"
+                }
+            ]
+        }
+    ],
+    "license": "CC-BY 4.0",
+    "language": "en",
+    "keywords": [
+        "emotional vocabulary",
+        "general vocabulary",
+        "language development",
+        "Gompertz",
+        "growth"
+    ],
+    "version": "1.0"
+}
